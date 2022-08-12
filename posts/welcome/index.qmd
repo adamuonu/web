@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog"
+author: "Adamu Onu"
+date: "2022-07-24"
+categories: news
+---
+
+Personal webpage of Dr. Adamu Onu 
+
+![](thumbnail.jpg)
+
+This blog is a space for my projects, &ldquo;experiments&rdquo;, and random musings.

@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  site-url: https://adamuonu.netlify.app/
+  description: "A space for my random musings and 'experiments'"
+  title: "Dr Adamu Onu"
+  resources:
+    - "*.pdf"
+  navbar:
+    background: dark
+    left: 
+      - text: "Home"
+        icon: house
+        file: index.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: Courses
+        file: courses.qmd
+      - text: Publications
+        file: publications.qmd
+    right:
+      - about.qmd
+      - icon: rss
+        href: index.xml
+      - icon: linkedin
+        href: https://www.linkedin.com/in/adamu-onu-a907b324/
+      - icon: github
+        href: https://github.com/adamuonu
+      - icon: twitter
+        href: https://twitter.com/OnuAdemu
+        
+    
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: zephyr
+    css: styles.css
+
+editor: source

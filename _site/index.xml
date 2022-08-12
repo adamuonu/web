@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Dr Adamu Onu</title>
+<link>https://adamuonu.netlify.app/index.html</link>
+<atom:link href="https://adamuonu.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+<description>A space for my random musings and 'experiments'</description>
+<generator>quarto-1.0.25</generator>
+<lastBuildDate>Thu, 11 Aug 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Nigeria’s health system: A story in five charts</title>
+  <dc:creator>Adamu Onu</dc:creator>
+  <link>https://adamuonu.netlify.app/posts/five-charts/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Nigeria is Africa’s most populous country and the continent’s largest economy. However, it lags on several critical measures of health. The country ranks near the bottom of the league for the population’s health. There is a gap between the current realities of the Nigerian health system and the expectations regarding the system. Within that gap lies opportunities to increase investment in health and improve Nigerians’ health outcomes.</p>
+<p>Indicators such as healthy life expectancy (HLE) and measures of disease burden like maternal mortality ratio (per 100,000 births) and under-five mortality rate (per 1000 live births) emphasize the poor performance of the Nigerian health system. HLE is a clear, consistent, and important population health outcome measure that can inform judgments about the value of health care investment. HLE is also an important guide to evaluating resource allocation for health care systems. <span class="citation" data-cites="stiefel2010">(Stiefel et al., 2010)</span> Current health expenditure (CHE) indicates the level of resources channelled to health relative to other uses. CHE shows the importance of the health sector in the whole economy and indicates the priority of health measured in monetary terms. <span class="citation" data-cites="Indicators2022">(World Health Organization, 2022a)</span></p>
+<p>In 2019, Nigerians’ life expectancy and healthy life expectancy were 62.6 years and 54.4 years. Maternal mortality in 2017 was 917. The under-five mortality rate was 114 per 1000 live births. Half of the 5 million under-five deaths in 2020 occurred in just Nigeria and four other countries. <span class="citation" data-cites="worldhealthorganization2022">(World Health Organization, 2022b)</span> A higher public health expenditure significantly decreases child and maternal mortality and increases life expectancy. <span class="citation" data-cites="rana2018">(Rana et al., 2018)</span> Public health expenditure has a negative correlation with infant mortality and under-five mortality. <span class="citation" data-cites="yaqub2012">(Yaqub et al., 2012)</span> The following five charts highlight the poor investment in health, inefficiency and waste that commonly occurs. The data used to generate these charts are from 1) the <a href="https://apps.who.int/nha/database">Global Health Expenditure Database</a> and 2) the <a href="https://www.who.int/data/gho">Global Health Observatory</a>.</p>
+<section id="current-health-expenditure-per-capita" class="level2">
+<h2 class="anchored" data-anchor-id="current-health-expenditure-per-capita">Current health expenditure per capita</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-01" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/five-charts/fig-01-1.png" class="img-fluid figure-img" width="2560"></p>
+<p></p><figcaption class="figure-caption">Figure 1: The relationship between current health expenditure and HLE</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Countries that spend similarly to Nigeria per capita have a longer healthy life expectancy (Figure&nbsp;1). This suggests that $1 spent per capita on health in Nigeria is not as cost-effective as $1 spent per capita in these other countries.</p>
+</section>
+<section id="out-of-pocket-expenditure-as-percentage-of-current-health-expenditure" class="level2">
+<h2 class="anchored" data-anchor-id="out-of-pocket-expenditure-as-percentage-of-current-health-expenditure">Out of pocket expenditure as percentage of current health expenditure</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-02" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/five-charts/fig-02-1.png" class="img-fluid figure-img" width="2560"></p>
+<p></p><figcaption class="figure-caption">Figure 2: Out-of-pocket expenditure as % of current health expenditure and healthy life expectancy</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Out-of-pocket expenditure in Nigeria is 162.3% of current health expenditure. As shown in Figure&nbsp;2, this is quite a significant portion of the total current health expenditure and highlights health care financing gaps. It also indicates that most of the population has a high risk of financial distress in the event of severe health challenges. We can see a clear negative relationship between the proportion of out-of-pocket spending and healthy life expectancy. Higher out-of-pocket spending on health indicates poor health system financing, which the population tries to remedy through out-of-pocket spending.</p>
+</section>
+<section id="social-health-insurance-spending-as-of-current-health-expenditure" class="level2">
+<h2 class="anchored" data-anchor-id="social-health-insurance-spending-as-of-current-health-expenditure">Social health insurance spending as % of current health expenditure</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-03" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/five-charts/fig-03-1.png" class="img-fluid figure-img" width="2560"></p>
+<p></p><figcaption class="figure-caption">Figure 3: Social health insurance as % of current health expenditure and healthy life expectancy</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>We see the opposite to out-of-pocket health expenditure with social health insurance spending. There is a positive relationship between social health insurance as a percentage of current health expenditure and healthy life expectancy. As in Figure&nbsp;1, we notice that several countries with similar proportions of social health insurance spending rank higher than Nigeria on life expectancy. Waste and inefficiency seem to be recurring themes.</p>
+</section>
+<section id="primary-health-care-spending-as-of-current-health-expenditure" class="level2">
+<h2 class="anchored" data-anchor-id="primary-health-care-spending-as-of-current-health-expenditure">Primary health care spending as % of current health expenditure</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-04" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/five-charts/fig-04-1.png" class="img-fluid figure-img" width="2560"></p>
+<p></p><figcaption class="figure-caption">Figure 4: Primary health care spending as % of current health expenditure and healthy life expectancy at birth</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>At first glance, Figure&nbsp;4 suggests that higher spending on primary health care is related to shorter life expectancy. However, Figure&nbsp;5 reveals a more nuanced picture. Expenditure on primary health care contributes more to current health expenditure because overall health budgets are small.</p>
+</section>
+<section id="primary-health-care-spending-per-capita" class="level2">
+<h2 class="anchored" data-anchor-id="primary-health-care-spending-per-capita">Primary health care spending per capita</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-05" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/five-charts/fig-05-1.png" class="img-fluid figure-img" width="2560"></p>
+<p></p><figcaption class="figure-caption">Figure 5: Primary health care spending per capita and healthy life expectancy</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>So what have we learned? Life expectancy in Nigeria is shorter than its peers - a reflection of the state of the health system. One dollar spent on health is not as cost-effective as in other countries. A majority of the health care spending is still out-of-pocket.</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="ref-rana2018" class="csl-entry">
+Rana, R. H., Alam, K., &amp; Gow, J. (2018). Health expenditure, child and maternal mortality nexus: a comparative global analysis. <em>BMC international health and human rights</em>, <em>18</em>(1), 29. <a href="https://doi.org/10.1186/s12914-018-0167-1">https://doi.org/10.1186/s12914-018-0167-1</a>
+</div>
+<div id="ref-stiefel2010" class="csl-entry">
+Stiefel, M. C., Perla, R. J., &amp; Zell, B. L. (2010). A Healthy Bottom Line: Healthy Life Expectancy as an Outcome Measure for Health Improvement Efforts. <em>Milbank Quarterly</em>, <em>88</em>(1), 30–53. <a href="https://doi.org/10.1111/j.1468-0009.2010.00588.x">https://doi.org/10.1111/j.1468-0009.2010.00588.x</a>
+</div>
+<div id="ref-Indicators2022" class="csl-entry">
+World Health Organization. (2022a). <em>Indicators</em>. <span>The Global Health Observatory</span>. <a href="https://www.who.int/data/gho/data/indicators">https://www.who.int/data/gho/data/indicators</a>
+</div>
+<div id="ref-worldhealthorganization2022" class="csl-entry">
+World Health Organization. (2022b). <em>World health statistics 2022: monitoring health for the SDGs, sustainable development goals</em>. World Health Organization. <a href="https://apps.who.int/iris/handle/10665/356584">https://apps.who.int/iris/handle/10665/356584</a>
+</div>
+<div id="ref-yaqub2012" class="csl-entry">
+Yaqub, J. O., Ojapinwa, T. V., &amp; Yussuff, R. O. (2012). Public health expenditure and health outcome in Nigeria: The impact of governance. <em>European Scientific Journal, ESJ</em>, <em>8</em>(13). <a href="https://eujournal.org/index.php/esj/article/view/206">https://eujournal.org/index.php/esj/article/view/206</a>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>health expenditure</category>
+  <category>data visualization</category>
+  <guid>https://adamuonu.netlify.app/posts/five-charts/index.html</guid>
+  <pubDate>Thu, 11 Aug 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://adamuonu.netlify.app/posts/five-charts/fig-01-1.png" medium="image" type="image/png" height="90" width="144"/>
+</item>
+<item>
+  <title>The importance of visualizing your data</title>
+  <dc:creator>Adamu Onu</dc:creator>
+  <link>https://adamuonu.netlify.app/posts/visualize-data/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>The visualization of your data is very important especially during the exploratory stages of data analysis. Data visualization may reveal relationships that may not otherwise be apparent. Also, important results can be communicated lucidly to your audience through graphs and charts.</p>
+<p>Consider this data set of 912 observations (Table&nbsp;1 shows the first 10 rows of the data):</p>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-describe" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 1: First few rows of data set</caption>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 28%">
+<col style="width: 26%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">encounter_date</th>
+<th style="text-align: center;">number_of_patients</th>
+<th style="text-align: center;">number_of_doctors</th>
+<th style="text-align: center;">mean_wait_time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2020-01-01</td>
+<td style="text-align: center;">120</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">16.49</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-02</td>
+<td style="text-align: center;">402</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">59.59</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-03</td>
+<td style="text-align: center;">363</td>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">43.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-04</td>
+<td style="text-align: center;">181</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">29.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-05</td>
+<td style="text-align: center;">130</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">17.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-06</td>
+<td style="text-align: center;">463</td>
+<td style="text-align: center;">54</td>
+<td style="text-align: center;">64.54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-07</td>
+<td style="text-align: center;">474</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">63.67</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-08</td>
+<td style="text-align: center;">442</td>
+<td style="text-align: center;">49</td>
+<td style="text-align: center;">58.72</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-09</td>
+<td style="text-align: center;">509</td>
+<td style="text-align: center;">59</td>
+<td style="text-align: center;">62.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-10</td>
+<td style="text-align: center;">430</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">53.56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Suppose we wish to examine the hypothesis that there is a relationship between the number of patients checking into the hospital on any given day and the daily average waiting time. We could do that using correlation and report a correlation coefficient. Thus from our data of 362,305 patient records from the hospital’s electronic medical records for the period of January 2020 to June 2022, we can calculate a Pearson’s correlation coefficient of <em>r</em> = 0.84 (95% CI 0.82, 0.85), <em>p</em> &lt; 0.01. This result suggests a strong positive linear relationship between the daily number of patients and the daily average waiting time.</p>
+<section id="scatterplots" class="level1">
+<h1>Scatterplots</h1>
+<p>What do we see when we plot the data i.e.&nbsp;a scatterplot of daily patient number against daily mean waiting time? Figure&nbsp;1 reveals something interesting. As expected from the correlation coefficient above, the regression line shows a strong positive relationship. However, what stands out is that the data is clustered into two groups suggesting group differences.</p>
+<p>If we were to colour the data points by whether the day was a weekend (Saturday or Sunday) or a weekday (Monday to Friday), the nature of the clustering becomes clearer (Figure&nbsp;2). Also, the slopes of the regression lines are different for weekdays compared to weekends. Respectively the correlation coefficients are <em>r</em> = 0.67 (0.63, 0.71), <em>p</em> &lt; 0.01 for weekdays, and <em>r</em> = 0.64 (0.57, 0.71), <em>p</em> &lt; 0.01 for weekends.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatterplot01" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot01-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Daily number of patients vs.&nbsp;daily mean waiting time</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatterplot02" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot02-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 2: Clustering of observations by weekday</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The confounding introduced by whether the day is a regular weekday or a weekend was revealed when we plotted the data. This is confirmed by the decrease in the correlation coefficients when we accounted for weekday. Therefore any subsequent analyses must account for the influence of weekday (see Table&nbsp;3).</p>
+<div class="cell">
+
+</div>
+<p>We can reasonably expect that having more doctors on duty might reduce the average waiting time. We can therefore test the hypothesis that there is an inverse relationship between the daily number of available doctors and the daily average waiting time. There is a statistically significant relationship between the number of doctors on duty and the daily average waiting time: <em>r</em> = 0.80 (95% CI 0.77, 0.82), <em>p</em> &lt; 0.01. We can also make a scatterplot of this relationship (Figure&nbsp;3).</p>
+<div id="fig-scatterplot03" class="cell quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot03-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot03-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot03-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot03-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure 3: Number of doctors and waiting time</figcaption><p></p>
+</figure>
+</div>
+<p>We see here that the clustering by weekday type is even more accentuated. We also see that the relationship between number of doctors and waiting times is in the opposite direction to what we expected. Why is this? It is likely as more patients check into the hospital, more doctors are placed on the roster. In other words, the increase in the number of doctors is a response to increased patient numbers. The correlation coefficients are <em>r</em> = 0.56 (0.5, 0.61), <em>p</em> &lt; 0.01 for weekdays, and <em>r</em> = 0.53 (0.43, 0.61), <em>p</em> &lt; 0.01 for weekends. Again highlighting the confounding imposed by weekend or weekday. It is possible that there is an interaction effect between the number of doctors on duty and weekday type: there will be relatively less doctors on duty given the same number of patients on weekends compared to weekdays.</p>
+<div class="cell">
+
+</div>
+<p>This leads us to consider the relationship between daily patient numbers and daily number of doctors on the roster (Figure&nbsp;4). The difference between weekdays and weekends is even more pronounced. The point and interval estimates for the overall correlation coefficient is <em>r</em> = 0.92 (0.91, 0.93) while they are <em>r</em> = 0.82 (0.8, 0.85) for weekdays, and <em>r</em> = 0.67 (0.59, 0.73) for weekends respectively.</p>
+<div id="fig-scatterplot04" class="cell quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot04-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot04-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot04-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot04-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure 4: Daily number of patients vs.&nbsp;daily number of doctors</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="regression-models" class="level1">
+<h1>Regression models</h1>
+<p>We now arrive at the point where we can attempt to develop an explanatory model for daily average waiting time (Equation&nbsp;1):</p>
+<p><span id="eq-lrm01"><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0Ay%20=%20%5Cbeta_0%20&amp;+%20%5Cbeta_%7B1%7D%20%5Ctimes%20%5Ctext%7Bdaily%20patient%20number%7D%20+%20%5Cbeta_%7B2%7D%20%5Ctimes%20%5Ctext%7Bdaily%20doctor%20number%7D%5C%5C%20&amp;+%20%5Cbeta_%7B3%7D%20%5Ctimes%20%5Ctext%7Bweekend%7D%20+%20%5Cepsilon%0A%5Cend%7Baligned%7D%0A%5Ctag%7B1%7D"></span></p>
+<p>Where:</p>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?y"> = daily average waiting time</li>
+<li><img src="https://latex.codecogs.com/png.latex?%5Cbeta_0"> = constant term</li>
+<li><img src="https://latex.codecogs.com/png.latex?%5Cbeta_1">, <img src="https://latex.codecogs.com/png.latex?%5Cbeta_2">, <img src="https://latex.codecogs.com/png.latex?%5Cbeta_3"> = regression coefficients, and</li>
+<li><img src="https://latex.codecogs.com/png.latex?%5Cepsilon"> = residual error term</li>
+</ul>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-regression01" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 2: Linear regression model of predictors of mean patient waiting time</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: right;"><strong>B</strong></th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;"><em>t</em></th>
+<th style="text-align: right;"><em>p</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(intercept)</td>
+<td style="text-align: right;">26.27</td>
+<td style="text-align: right;">2.426</td>
+<td style="text-align: right;">10.83</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">number of patients</td>
+<td style="text-align: right;">0.109</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">15.42</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors</td>
+<td style="text-align: right;">-0.011</td>
+<td style="text-align: right;">0.076</td>
+<td style="text-align: right;">-0.15</td>
+<td style="text-align: right;">0.881</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">weekends</td>
+<td style="text-align: right;">-8.425</td>
+<td style="text-align: right;">1.997</td>
+<td style="text-align: right;">-4.22</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>N</em></td>
+<td style="text-align: right;">912</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?R%5E2"></td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">adjusted <img src="https://latex.codecogs.com/png.latex?R%5E2"></td>
+<td style="text-align: right;">0.709</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AIC</td>
+<td style="text-align: right;">7200</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>The results of the linear regression model are shown in Table&nbsp;2. On average patients will wait about 8 minutes less on weekends. The model shows that there is not a statistically significant relationship between the number of doctors and daily average waiting time after adjusting for the effects of number of patients and weekend. So the earlier relationship we found for the relationship between the number of doctors and daily average waiting time is spurious.</p>
+<p>The adjusted <img src="https://latex.codecogs.com/png.latex?R%5E2%20=%200.709"> suggests that this model explains about 71% of the variation in the data. Does the performance of the model improve if we include the interaction between weekend and number of doctors (Equation&nbsp;2)? The results in Table&nbsp;3 suggest there is only a marginal improvement (adjusted <img src="https://latex.codecogs.com/png.latex?R%5E2%20=%200.717">), however the ANOVA test comparing the two models (not shown) indicates this second model is better. We can plot the <strong>standardized</strong> coefficients as a forest plot (Figure&nbsp;5) to show which variable has the most influence on daily average time.</p>
+<p><span id="eq-lrm02"><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0Ay%20=%20%5Cbeta_0%20&amp;+%20%5Cbeta_%7B1%7D%20%5Ctimes%20%5Ctext%7Bdaily%20patient%20number%7D%20+%20%5Cbeta_%7B2%7D%20%5Ctimes%20%5Ctext%7Bdaily%20doctor%20number%7D%5C%5C%20&amp;+%20%5Cbeta_%7B3%7D%20%5Ctimes%20%5Ctext%7Bweekend%7D%20+%20%5Cbeta_%7B4%7D%20%5Ctimes%20%5Ctext%7Bdaily%20doctor%20number%7D%5Ccdot%5Ctext%7Bweekend%7D%20+%5Cepsilon%0A%5Cend%7Baligned%7D%0A%5Ctag%7B2%7D"></span></p>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-regression02" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 3: Linear regression model of predictors of mean patient waiting time with interaction term</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: right;"><strong>B</strong></th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;"><em>t</em></th>
+<th style="text-align: right;"><em>p</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(intercept)</td>
+<td style="text-align: right;">28.34</td>
+<td style="text-align: right;">2.426</td>
+<td style="text-align: right;">11.68</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">number of patients</td>
+<td style="text-align: right;">0.106</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors</td>
+<td style="text-align: right;">-0.017</td>
+<td style="text-align: right;">0.074</td>
+<td style="text-align: right;">-0.23</td>
+<td style="text-align: right;">0.816</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">weekends</td>
+<td style="text-align: right;">-30.29</td>
+<td style="text-align: right;">4.68</td>
+<td style="text-align: right;">-6.47</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors · weekend</td>
+<td style="text-align: right;">1.363</td>
+<td style="text-align: right;">0.265</td>
+<td style="text-align: right;">5.15</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>N</em></td>
+<td style="text-align: right;">912</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://latex.codecogs.com/png.latex?R%5E2"></td>
+<td style="text-align: right;">0.719</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">adjusted <img src="https://latex.codecogs.com/png.latex?R%5E2"></td>
+<td style="text-align: right;">0.717</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AIC</td>
+<td style="text-align: right;">7176</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>The weekday is the most influential variable on average waiting time, having the largest standardized coefficient <img src="https://latex.codecogs.com/png.latex?%5Cbeta%20=%201.19"> while there is also a statistically significant interaction effect between the number of doctors and whether it is a weekend or not.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-forest" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://adamuonu.netlify.app/posts/visualize-data/fig-forest-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 5: Forest plot of standardized regression coefficients</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>But then this confirms what we can already infer from observation and commonsense. Patients spend longer minutes waiting when there are more of them. The number of doctors on duty increases in response to increased patient numbers but does not improve the waiting time. There are less doctors available on weekends.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>data visualization</category>
+  <guid>https://adamuonu.netlify.app/posts/visualize-data/index.html</guid>
+  <pubDate>Sun, 24 Jul 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://adamuonu.netlify.app/posts/visualize-data/fig-scatterplot01-1.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Adamu Onu</dc:creator>
+  <link>https://adamuonu.netlify.app/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Personal webpage of Dr.&nbsp;Adamu Onu</p>
+<p><img src="https://adamuonu.netlify.app/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>This blog is a space for my projects, “experiments”, and random musings.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://adamuonu.netlify.app/posts/welcome/index.html</guid>
+  <pubDate>Sat, 23 Jul 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://adamuonu.netlify.app/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,16 @@
+---
+title: "Blog"
+listing:
+  type: default
+  contents: posts
+  fields: [image, description, date, title, author, reading-time]
+  page-size: 10
+  sort: "date desc"
+  feed: true
+  max-description-length: 75
+  categories: true
+  sort-ui: true
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---

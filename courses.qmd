@@ -1,0 +1,7 @@
+---
+title: "Courses"
+---
+
+Here is a listing of some of the courses I have taught on and links to their github pages.
+
+- [Research Methodology Bootcamp with Epi Info Training](https://github.com/adamuonu/research-methodology-bootcamp)

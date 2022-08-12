@@ -1,0 +1,6 @@
+---
+title: "My Projects"
+---
+ Here is a listing of some of the projects I have worked on and links to their github pages.
+ 
+ - [Clinical profile and predictors of outcomes of hospitalized patients with laboratory confirmed severe acute respiratory syndrome coronavirus 2 in Nigeria](https://github.com/adamuonu/nigeria-covid-study)

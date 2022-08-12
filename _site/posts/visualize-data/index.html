@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Adamu Onu">
+<meta name="dcterms.date" content="2022-07-25">
+
+<title>Dr Adamu Onu - The importance of visualizing your data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Dr Adamu Onu</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html">Projects</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../courses.html">Courses</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html">Publications</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About Me</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/adamu-onu-a907b324/"><i class="bi bi-linkedin" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/adamuonu"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/OnuAdemu"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#scatterplots" id="toc-scatterplots" class="nav-link active" data-scroll-target="#scatterplots">Scatterplots</a></li>
+  <li><a href="#regression-models" id="toc-regression-models" class="nav-link" data-scroll-target="#regression-models">Regression models</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The importance of visualizing your data</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data visualization</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Adamu Onu </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 25, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+
+</div>
+<p>The visualization of your data is very important especially during the exploratory stages of data analysis. Data visualization may reveal relationships that may not otherwise be apparent. Also, important results can be communicated lucidly to your audience through graphs and charts.</p>
+<p>Consider this data set of 912 observations (<a href="#tbl-describe">Table&nbsp;1</a> shows the first 10 rows of the data):</p>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-describe" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 1: First few rows of data set</caption>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 28%">
+<col style="width: 26%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">encounter_date</th>
+<th style="text-align: center;">number_of_patients</th>
+<th style="text-align: center;">number_of_doctors</th>
+<th style="text-align: center;">mean_wait_time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2020-01-01</td>
+<td style="text-align: center;">120</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">16.49</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-02</td>
+<td style="text-align: center;">402</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">59.59</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-03</td>
+<td style="text-align: center;">363</td>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">43.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-04</td>
+<td style="text-align: center;">181</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">29.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-05</td>
+<td style="text-align: center;">130</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">17.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-06</td>
+<td style="text-align: center;">463</td>
+<td style="text-align: center;">54</td>
+<td style="text-align: center;">64.54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-07</td>
+<td style="text-align: center;">474</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">63.67</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-08</td>
+<td style="text-align: center;">442</td>
+<td style="text-align: center;">49</td>
+<td style="text-align: center;">58.72</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020-01-09</td>
+<td style="text-align: center;">509</td>
+<td style="text-align: center;">59</td>
+<td style="text-align: center;">62.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020-01-10</td>
+<td style="text-align: center;">430</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">53.56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Suppose we wish to examine the hypothesis that there is a relationship between the number of patients checking into the hospital on any given day and the daily average waiting time. We could do that using correlation and report a correlation coefficient. Thus from our data of 362,305 patient records from the hospital’s electronic medical records for the period of January 2020 to June 2022, we can calculate a Pearson’s correlation coefficient of <em>r</em> = 0.84 (95% CI 0.82, 0.85), <em>p</em> &lt; 0.01. This result suggests a strong positive linear relationship between the daily number of patients and the daily average waiting time.</p>
+<section id="scatterplots" class="level1">
+<h1>Scatterplots</h1>
+<p>What do we see when we plot the data i.e.&nbsp;a scatterplot of daily patient number against daily mean waiting time? <a href="#fig-scatterplot01">Figure&nbsp;1</a> reveals something interesting. As expected from the correlation coefficient above, the regression line shows a strong positive relationship. However, what stands out is that the data is clustered into two groups suggesting group differences.</p>
+<p>If we were to colour the data points by whether the day was a weekend (Saturday or Sunday) or a weekday (Monday to Friday), the nature of the clustering becomes clearer (<a href="#fig-scatterplot02">Figure&nbsp;2</a>). Also, the slopes of the regression lines are different for weekdays compared to weekends. Respectively the correlation coefficients are <em>r</em> = 0.67 (0.63, 0.71), <em>p</em> &lt; 0.01 for weekdays, and <em>r</em> = 0.64 (0.57, 0.71), <em>p</em> &lt; 0.01 for weekends.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatterplot01" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot01-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Daily number of patients vs.&nbsp;daily mean waiting time</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatterplot02" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot02-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 2: Clustering of observations by weekday</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The confounding introduced by whether the day is a regular weekday or a weekend was revealed when we plotted the data. This is confirmed by the decrease in the correlation coefficients when we accounted for weekday. Therefore any subsequent analyses must account for the influence of weekday (see <a href="#tbl-regression02">Table&nbsp;3</a>).</p>
+<div class="cell">
+
+</div>
+<p>We can reasonably expect that having more doctors on duty might reduce the average waiting time. We can therefore test the hypothesis that there is an inverse relationship between the daily number of available doctors and the daily average waiting time. There is a statistically significant relationship between the number of doctors on duty and the daily average waiting time: <em>r</em> = 0.80 (95% CI 0.77, 0.82), <em>p</em> &lt; 0.01. We can also make a scatterplot of this relationship (<a href="#fig-scatterplot03">Figure&nbsp;3</a>).</p>
+<div id="fig-scatterplot03" class="cell quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot03-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot03-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot03-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot03-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure 3: Number of doctors and waiting time</figcaption><p></p>
+</figure>
+</div>
+<p>We see here that the clustering by weekday type is even more accentuated. We also see that the relationship between number of doctors and waiting times is in the opposite direction to what we expected. Why is this? It is likely as more patients check into the hospital, more doctors are placed on the roster. In other words, the increase in the number of doctors is a response to increased patient numbers. The correlation coefficients are <em>r</em> = 0.56 (0.5, 0.61), <em>p</em> &lt; 0.01 for weekdays, and <em>r</em> = 0.53 (0.43, 0.61), <em>p</em> &lt; 0.01 for weekends. Again highlighting the confounding imposed by weekend or weekday. It is possible that there is an interaction effect between the number of doctors on duty and weekday type: there will be relatively less doctors on duty given the same number of patients on weekends compared to weekdays.</p>
+<div class="cell">
+
+</div>
+<p>This leads us to consider the relationship between daily patient numbers and daily number of doctors on the roster (<a href="#fig-scatterplot04">Figure&nbsp;4</a>). The difference between weekdays and weekends is even more pronounced. The point and interval estimates for the overall correlation coefficient is <em>r</em> = 0.92 (0.91, 0.93) while they are <em>r</em> = 0.82 (0.8, 0.85) for weekdays, and <em>r</em> = 0.67 (0.59, 0.73) for weekends respectively.</p>
+<div id="fig-scatterplot04" class="cell quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot04-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot04-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-scatterplot04-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-scatterplot04-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure 4: Daily number of patients vs.&nbsp;daily number of doctors</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="regression-models" class="level1">
+<h1>Regression models</h1>
+<p>We now arrive at the point where we can attempt to develop an explanatory model for daily average waiting time (<a href="#eq-lrm01">Equation&nbsp;1</a>):</p>
+<p><span id="eq-lrm01"><span class="math display">\[
+\begin{aligned}
+y = \beta_0 &amp;+ \beta_{1} \times \text{daily patient number} + \beta_{2} \times \text{daily doctor number}\\ &amp;+ \beta_{3} \times \text{weekend} + \epsilon
+\end{aligned}
+\tag{1}\]</span></span></p>
+<p>Where:</p>
+<ul>
+<li><span class="math inline">\(y\)</span> = daily average waiting time</li>
+<li><span class="math inline">\(\beta_0\)</span> = constant term</li>
+<li><span class="math inline">\(\beta_1\)</span>, <span class="math inline">\(\beta_2\)</span>, <span class="math inline">\(\beta_3\)</span> = regression coefficients, and</li>
+<li><span class="math inline">\(\epsilon\)</span> = residual error term</li>
+</ul>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-regression01" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 2: Linear regression model of predictors of mean patient waiting time</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: right;"><strong>B</strong></th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;"><em>t</em></th>
+<th style="text-align: right;"><em>p</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(intercept)</td>
+<td style="text-align: right;">26.27</td>
+<td style="text-align: right;">2.426</td>
+<td style="text-align: right;">10.83</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">number of patients</td>
+<td style="text-align: right;">0.109</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">15.42</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors</td>
+<td style="text-align: right;">-0.011</td>
+<td style="text-align: right;">0.076</td>
+<td style="text-align: right;">-0.15</td>
+<td style="text-align: right;">0.881</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">weekends</td>
+<td style="text-align: right;">-8.425</td>
+<td style="text-align: right;">1.997</td>
+<td style="text-align: right;">-4.22</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>N</em></td>
+<td style="text-align: right;">912</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(R^2\)</span></td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">adjusted <span class="math inline">\(R^2\)</span></td>
+<td style="text-align: right;">0.709</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AIC</td>
+<td style="text-align: right;">7200</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>The results of the linear regression model are shown in <a href="#tbl-regression01">Table&nbsp;2</a>. On average patients will wait about 8 minutes less on weekends. The model shows that there is not a statistically significant relationship between the number of doctors and daily average waiting time after adjusting for the effects of number of patients and weekend. So the earlier relationship we found for the relationship between the number of doctors and daily average waiting time is spurious.</p>
+<p>The adjusted <span class="math inline">\(R^2 = 0.709\)</span> suggests that this model explains about 71% of the variation in the data. Does the performance of the model improve if we include the interaction between weekend and number of doctors (<a href="#eq-lrm02">Equation&nbsp;2</a>)? The results in <a href="#tbl-regression02">Table&nbsp;3</a> suggest there is only a marginal improvement (adjusted <span class="math inline">\(R^2 = 0.717\)</span>), however the ANOVA test comparing the two models (not shown) indicates this second model is better. We can plot the <strong>standardized</strong> coefficients as a forest plot (<a href="#fig-forest">Figure&nbsp;5</a>) to show which variable has the most influence on daily average time.</p>
+<p><span id="eq-lrm02"><span class="math display">\[
+\begin{aligned}
+y = \beta_0 &amp;+ \beta_{1} \times \text{daily patient number} + \beta_{2} \times \text{daily doctor number}\\ &amp;+ \beta_{3} \times \text{weekend} + \beta_{4} \times \text{daily doctor number}\cdot\text{weekend} +\epsilon
+\end{aligned}
+\tag{2}\]</span></span></p>
+<div class="cell tbl-cap-location-bottom">
+<div class="cell-output-display">
+<div id="tbl-regression02" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 3: Linear regression model of predictors of mean patient waiting time with interaction term</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: right;"><strong>B</strong></th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;"><em>t</em></th>
+<th style="text-align: right;"><em>p</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(intercept)</td>
+<td style="text-align: right;">28.34</td>
+<td style="text-align: right;">2.426</td>
+<td style="text-align: right;">11.68</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">number of patients</td>
+<td style="text-align: right;">0.106</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors</td>
+<td style="text-align: right;">-0.017</td>
+<td style="text-align: right;">0.074</td>
+<td style="text-align: right;">-0.23</td>
+<td style="text-align: right;">0.816</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">weekends</td>
+<td style="text-align: right;">-30.29</td>
+<td style="text-align: right;">4.68</td>
+<td style="text-align: right;">-6.47</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">number of doctors · weekend</td>
+<td style="text-align: right;">1.363</td>
+<td style="text-align: right;">0.265</td>
+<td style="text-align: right;">5.15</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>N</em></td>
+<td style="text-align: right;">912</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(R^2\)</span></td>
+<td style="text-align: right;">0.719</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">adjusted <span class="math inline">\(R^2\)</span></td>
+<td style="text-align: right;">0.717</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AIC</td>
+<td style="text-align: right;">7176</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>The weekday is the most influential variable on average waiting time, having the largest standardized coefficient <span class="math inline">\(\beta = 1.19\)</span> while there is also a statistically significant interaction effect between the number of doctors and whether it is a weekend or not.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-forest" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="fig-forest-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 5: Forest plot of standardized regression coefficients</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>But then this confirms what we can already infer from observation and commonsense. Patients spend longer minutes waiting when there are more of them. The number of doctors on duty increases in response to increased patient numbers but does not improve the waiting time. There are less doctors available on weekends.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

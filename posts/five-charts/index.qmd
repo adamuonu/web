@@ -1,0 +1,85 @@
+---
+title: "Nigeria's health system: A story in five charts"
+author: "Adamu Onu"
+date: "2022-08-12"
+categories: ["health expenditure", "data visualization"]
+bibliography: references.bib
+csl: apa.csl
+---
+
+
+::: {.cell}
+
+:::
+
+
+Nigeria is Africa's most populous country and the continent's largest economy. However, it lags on several critical measures of health. The country ranks near the bottom of the league for the population's health. There is a gap between the current realities of the Nigerian health system and the expectations regarding the system. Within that gap lies opportunities to increase investment in health and improve Nigerians' health outcomes.
+
+Indicators such as healthy life expectancy (HLE) and measures of disease burden like maternal mortality ratio (per 100,000 births) and under-five mortality rate (per 1000 live births) emphasize the poor performance of the Nigerian health system. HLE is a clear, consistent, and important population health outcome measure that can inform judgments about the value of health care investment. HLE is also an important guide to evaluating resource allocation for health care systems. [@stiefel2010] Current health expenditure (CHE) indicates the level of resources channelled to health relative to other uses. CHE shows the importance of the health sector in the whole economy and indicates the priority of health measured in monetary terms. [@Indicators2022]
+
+In 2019, Nigerians' life expectancy and healthy life expectancy were 62.6 years and 54.4 years. Maternal mortality in 2017 was 917. The under-five mortality rate was 114 per 1000 live births. Half of the 5 million under-five deaths in 2020 occurred in just Nigeria and four other countries. [@worldhealthorganization2022] A higher public health expenditure significantly decreases child and maternal mortality and increases life expectancy. [@rana2018] Public health expenditure has a negative correlation with infant mortality and under-five mortality. [@yaqub2012] The following five charts highlight the poor investment in health, inefficiency and waste that commonly occurs. The data used to generate these charts are from 1) the [Global Health Expenditure Database](https://apps.who.int/nha/database) and 2) the [Global Health Observatory](https://www.who.int/data/gho).
+
+## Current health expenditure per capita
+
+
+::: {.cell}
+::: {.cell-output-display}
+![The relationship between current health expenditure and HLE](fig-01-1.png){#fig-01 width=2560}
+:::
+:::
+
+
+Countries that spend similarly to Nigeria per capita have a longer healthy life expectancy (@fig-01). This suggests that \$1 spent per capita on health in Nigeria is not as cost-effective as \$1 spent per capita in these other countries.
+
+## Out of pocket expenditure as percentage of current health expenditure
+
+
+::: {.cell}
+::: {.cell-output-display}
+![Out-of-pocket expenditure as % of current health expenditure and healthy life expectancy](fig-02-1.png){#fig-02 width=2560}
+:::
+:::
+
+
+Out-of-pocket expenditure in Nigeria is 162.3% of current health expenditure. As shown in @fig-02, this is quite a significant portion of the total current health expenditure and highlights health care financing gaps. It also indicates that most of the population has a high risk of financial distress in the event of severe health challenges. We can see a clear negative relationship between the proportion of out-of-pocket spending and healthy life expectancy. Higher out-of-pocket spending on health indicates poor health system financing, which the population tries to remedy through out-of-pocket spending.
+
+## Social health insurance spending as % of current health expenditure
+
+
+::: {.cell}
+::: {.cell-output-display}
+![Social health insurance as % of current health expenditure and healthy life expectancy](fig-03-1.png){#fig-03 width=2560}
+:::
+:::
+
+
+We see the opposite to out-of-pocket health expenditure with social health insurance spending. There is a positive relationship between social health insurance as a percentage of current health expenditure and healthy life expectancy. As in @fig-01, we notice that several countries with similar proportions of social health insurance spending rank higher than Nigeria on life expectancy. Waste and inefficiency seem to be recurring themes.
+
+## Primary health care spending as % of current health expenditure
+
+
+::: {.cell}
+::: {.cell-output-display}
+![Primary health care spending as % of current health expenditure and healthy life expectancy at birth](fig-04-1.png){#fig-04 width=2560}
+:::
+:::
+
+
+At first glance, @fig-04 suggests that higher spending on primary health care is related to shorter life expectancy. However, @fig-05 reveals a more nuanced picture. Expenditure on primary health care contributes more to current health expenditure because overall health budgets are small.
+
+## Primary health care spending per capita
+
+
+::: {.cell}
+::: {.cell-output-display}
+![Primary health care spending per capita and healthy life expectancy](fig-05-1.png){#fig-05 width=2560}
+:::
+:::
+
+
+So what have we learned? Life expectancy in Nigeria is shorter than its peers - a reflection of the state of the health system. One dollar spent on health is not as cost-effective as in other countries. A majority of the health care spending is still out-of-pocket.
+
+### References
+
+::: {#refs}
+:::

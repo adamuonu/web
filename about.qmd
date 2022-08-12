@@ -1,0 +1,41 @@
+---
+title: "About Me"
+about:
+  template: solana
+  image: myprofile.jpg
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/OnuAdemu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/adamu-onu-a907b324/
+    - icon: github
+      text: Github
+      href: https://github.com/adamuonu
+    - icon: file-earmark-arrow-down-fill
+      text: "Download CV"
+      href: docs/resume.pdf
+---
+
+Dr. Adamu Onu is an experienced physician / biostatistician with strong leadership skills, proven track record and a demonstrated history of working in the public and private healthcare and in public health in administrative, clinical roles and consulting roles with excellent outcomes. Skilled in developing applications in R, SPSS, Stata, and Python. Possess practical experience in healthcare information technology (HIT).
+
+## Education
+
+- **Walden University, Minneapolis, MN, USA**
+  - PhD in Public Health (Epidemiology) 
+  - *Jun 2013 - May 2021*
+
+- **Northwestern University, Chicago, IL, USA**
+  - MS in Epidemiology & Biostatistics
+  - *Jun 2010 - Jun 2011*
+
+- **West African College of Physicians, Lagos, Nigeria**
+  - Fellowship Diploma (Family Medicine)
+  - *Apr 2003 - Apr 2008*
+
+- **University of Jos, Jos, Nigeria**
+  - MBBS
+  - *Jan 1993 - May 2000*
