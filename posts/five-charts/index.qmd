@@ -29,7 +29,7 @@ In 2019, Nigerians' life expectancy and healthy life expectancy were 62.6 years 
 :::
 
 
-Countries that spend similarly to Nigeria per capita have a longer healthy life expectancy (@fig-01). This suggests that \$1 spent per capita on health in Nigeria is not as cost-effective as \$1 spent per capita in these other countries.
+In 2019, Nigeria spent \$71.5 as current health expenditure per capita. Countries that spend similarly to Nigeria per capita have a longer healthy life expectancy (@fig-01). This suggests that \$1 spent per capita on health in Nigeria is not as cost-effective as \$1 spent per capita in these other countries.
 
 ## Out of pocket expenditure as percentage of current health expenditure
 
@@ -41,7 +41,7 @@ Countries that spend similarly to Nigeria per capita have a longer healthy life 
 :::
 
 
-Out-of-pocket expenditure in Nigeria is 162.3% of current health expenditure. As shown in @fig-02, this is quite a significant portion of the total current health expenditure and highlights health care financing gaps. It also indicates that most of the population has a high risk of financial distress in the event of severe health challenges. We can see a clear negative relationship between the proportion of out-of-pocket spending and healthy life expectancy. Higher out-of-pocket spending on health indicates poor health system financing, which the population tries to remedy through out-of-pocket spending.
+In 2019, out-of-pocket expenditure in Nigeria was 70.5% of current health expenditure. As shown in @fig-02, this is quite a significant portion of the total current health expenditure and highlights health care financing gaps. It also indicates that most of the population has a high risk of financial distress in the event of severe health challenges. We can see a clear negative relationship between the proportion of out-of-pocket spending and healthy life expectancy. Higher out-of-pocket spending on health indicates poor health system financing, which the population tries to remedy through out-of-pocket spending.
 
 ## Social health insurance spending as % of current health expenditure
 
